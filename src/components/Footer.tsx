@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4">
+    <footer className="bg-gray-800 text-white py-4 w-screen">
       <div className="container mx-auto flex justify-center space-x-6">
         <Link href="https://github.com/vishalghag" passHref>
           <div className="cursor-pointer hover:text-gray-400">
