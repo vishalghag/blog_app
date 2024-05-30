@@ -23,25 +23,19 @@ This project is a responsive blog page built with Next.js and styled using Tailw
    git clone https://github.com/vishalghag/blog_app
    ```
 
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd responsive-blog-page
-   ```
-
-3. **Install the dependencies**:
+2. **Install the dependencies**:
 
    ```bash
    npm install
    ```
 
-4. **Run the development server**:
+3. **Run the development server**:
 
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Design Choices and Libraries Used
 
