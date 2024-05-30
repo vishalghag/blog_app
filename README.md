@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Responsive Blog Page
 
 ## Getting Started
 
-First, run the development server:
+This project is a responsive blog page built with Next.js and styled using Tailwind CSS, following the provided Figma design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features Implemented
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Figma Design Implementation**: All functionalities and UI elements are implemented according to the provided Figma design.
+2. **View All/View Less Feature**: Blog posts have a "View All" and "View Less" feature for displaying full or partial content.
+3. **Search Functionality**: A search bar is included to filter blog posts by title
+4. **Tailwind CSS Styling**: Tailwind CSS is used for styling, ensuring a clean and responsive design.
+5. **Responsive Design**: The layout is responsive and looks good on both desktop and mobile devices.
+6. **Industrial Best Practices**: The project follows all industry best practices for clean and maintainable code.
+7. **404 Not Found Page**: A custom 404 page is implemented for handling routes that do not exist.
+8. **Additional Features**: Hover effects on blog post items, and a lightbox effect for blog post thumbnails.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Run the Project Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository**:
 
-## Learn More
+   ```bash
+   git clone https://github.com/your-username/responsive-blog-page.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Navigate to the project directory**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd responsive-blog-page
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Install the dependencies**:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Run the development server**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Design Choices and Libraries Used
+
+- **Next.js**: For server-side rendering and static site generation.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **CSS Grid and Flexbox**: For responsive layouts.
+- **Google Fonts**: For typography as per the Figma design.
+- **Lightbox Effect**: For blog post thumbnails.
+- **404 Page**: For handling non-existing routes.
+- **Hover Effects**: For blog post items.
+
+## Figma Design
+
+The design used as a reference can be found [https://www.figma.com/community/file/882879599442878081](Figma Link).
+
+## Conclusion
+
+This project adheres to the provided Figma design and implements all required features, ensuring a responsive and user-friendly blog page. Additional features such as a search bar, view toggles, and custom 404 page enhance the overall user experience.
+
+## Contact
+
+For any questions or feedback, please contact me at [vishlghag47@gmail.com.com].
