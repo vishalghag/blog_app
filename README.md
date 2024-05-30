@@ -20,7 +20,7 @@ This project is a responsive blog page built with Next.js and styled using Tailw
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/responsive-blog-page.git
+   git clone https://github.com/vishalghag/blog_app
    ```
 
 2. **Navigate to the project directory**:
