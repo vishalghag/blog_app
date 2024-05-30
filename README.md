@@ -46,6 +46,7 @@ This project is a responsive blog page built with Next.js and styled using Tailw
 - **Lightbox Effect**: For blog post thumbnails.
 - **404 Page**: For handling non-existing routes.
 - **Hover Effects**: For blog post items.
+- **Typescript**: The benefits of type safety outweigh the additional complexity of the language.
 
 ## Figma Design
 

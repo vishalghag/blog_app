@@ -26,7 +26,7 @@ const Blog: React.FC<BlogProps> = ({ blogData, viewAll }) => {
         displayBlogs.map((blog) => (
           <div
             key={blog.id}
-            className="bg-white/50 p-4 m-2 sm:m-4 rounded-lg hover:bg-white hover:shadow-lg transition duration-300 ease-in-out"
+            className="bg-white/50 p-4 m-2 sm:m-4 rounded-lg hover:bg-white hover:shadow-lg transition duration-300 ease-in-out cursor-pointer"
           >
             <h1 className="text-xl sm:text-3xl font-bold m-2 sm:m-4">
               {blog.title}
