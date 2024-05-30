@@ -40,7 +40,7 @@ const Header: React.FC<SearchProps> = ({
       />
       <button
         onClick={toggleTheme}
-        className="ml-4 p-2 bg-gray-200 dark:bg-gray-700 dark:text-white rounded mr-3"
+        className="ml-4 p-2 bg-gray-200 dark:bg-gray-700 dark:text-white rounded mr-3 mb-3"
       >
         {isDarkMode ? "Light Mode" : "Dark Mode"}
       </button>
