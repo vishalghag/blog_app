@@ -1,3 +1,4 @@
+"use client";
 import { BlogItem } from "@/utils/types";
 import Image from "next/image";
 import React from "react";
@@ -21,7 +22,7 @@ const Blog: React.FC<BlogProps> = ({ blogData, viewAll }) => {
 
   return (
     <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4 px-4 sm:px-[9%]">
-      {displayBlogs.length > 0 &&
+      {displayBlogs.length > 0 ? (
         displayBlogs.map((blog) => (
           <div key={blog.id} className="bg-white/50 p-4 m-2 sm:m-4 rounded-lg">
             <h1 className="text-xl sm:text-3xl font-bold m-2 sm:m-4">
@@ -49,7 +50,14 @@ const Blog: React.FC<BlogProps> = ({ blogData, viewAll }) => {
               />
             </div>
           </div>
-        ))}
+        ))
+      ) : (
+        <>
+          <h1 className=" text-3xl font-medium flex justify-center text-red-500">
+            Search Blog is not present
+          </h1>
+        </>
+      )}
     </div>
   );
 };
