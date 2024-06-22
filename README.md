@@ -48,10 +48,6 @@ This project is a responsive blog page built with Next.js and styled using Tailw
 - **Hover Effects**: For blog post items.
 - **Typescript**: The benefits of type safety outweigh the additional complexity of the language.
 
-## Figma Design
-
-The design used as a reference can be found [https://www.figma.com/community/file/882879599442878081](Figma Link).
-
 ## Conclusion
 
 This project adheres to the provided Figma design and implements all required features, ensuring a responsive and user-friendly blog page. Additional features such as a search bar, view toggles, and custom 404 page enhance the overall user experience.
